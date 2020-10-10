@@ -1,0 +1,186 @@
+{
+  " name " : " senuben " ,
+  " description " : " Seden UserBot " ,
+  " logo " : " https://i.imgur.com/ZLi4nDP.jpg " ,
+  " anahtar kelimeler " : [
+    " telgraf " ,
+    " userbot " ,
+	" senuben " ,
+    " eklenti " ,
+    " modüler " ,
+    " verimlilik "
+  ],
+  " depo " : " https://github.com/endlesbot/senuben " ,
+  " web sitesi " :    " https://github.com/endlesbot/senuben/wiki " ,
+  " success_url " : " https://t.me/endlessupport" ,
+  " yığın " : " kapsayıcı " ,
+  " env " : {
+    " API_KEY " : {
+      " description " : " Bu değeri my.telegram.org adresinden alınmaktadır. " ,
+      " gerekli " : doğru
+    },
+    " API_HASH " : {
+      " description " : " Bu değeri my.telegram.org adresinden alınmaktadır. " ,
+      " gerekli " : doğru
+    },
+    " STRING_SESSION " : {
+      " Açıklama " : "python3 GenerateStringSession.py dosyasini benzetilmiş Olarak çalıştırarak bu Değeri alın " ,
+      " gerekli " : doğru
+    },
+    " HEROKU_APIKEY " : {
+      " description " : " Heroku API Key, 'https://dashboard.heroku.com/account' adresinden alın. " ,
+      " değer " : " "
+    },
+    " HEROKU_APPNAME " : {
+      " description " : " Heroku uygulama adını buraya ekleyin. UserBot güncelleme yardımcı olur. " ,
+      " gerekli " : doğru
+    },
+    " UPSTREAM_REPO_URL " : {
+      " description " : " Varsayılan olarak kendi repo adresimiz eklidir. " ,
+      " değer " : " https://github.com/TeamDerUntergang/Telegram-UserBot " ,
+      " gerekli " : doğru
+    },
+    " ÜLKE " : {
+      " description " : " Ülkenizi .time ve .date komutlarında kullanılırken Android olarak Türkiye ayarlanmıştır. " ,
+      " değer " : " Türkiye " ,
+      " gerekli " : yanlış
+    },
+    " TZ_NUMBER " : {
+      " description " : " Ülkenizde birden fazla Saat Dilimi olması durumunda bu değeri. " ,
+      " değer " : " 1 " ,
+      " gerekli " : yanlış
+    },
+    " TZ " : {
+      " description " : " Bunun ne işe yaradığı fikrin yoksa kurcalama :) " ,
+      " değer " : " Avrupa / İstanbul " ,
+      " gerekli " : doğru  
+    },
+    " CHROME_DRIVER " : {
+      " description " : " Selenium tabanlı modüller için ChromeDriver işaretlendi. " ,
+      " value " : " / usr / bin / chromedriver " ,
+      " gerekli " : yanlış
+    },
+    " BOTLOG " : {
+      " description " : " Günlüğe kaydetmeyi açmayı, bunu True olarak yıkamayı " ,
+      " değer " : " Yanlış "
+    },
+    " BOT_USERNAME " : {
+      " description " : " Inline bot özel çalışma çalışması için gereklidir. Buraya botunuzun kullanıcı adınız yazmanız lazım (Örnek: @NaytSeydBot). Botunuz yok ise @BotFather yardımı ile bot oluşturabilirsiniz. " ,
+      " gerekli " : yanlış  
+    },
+    " BOT_TOKEN " : {
+      " description " : " Inline bot özelliğinin çalışması için gereklidir. Buraya botunuzun tokenini yazmanız gerekir. Botunuz yok ise @BotFather yardımı ile bot oluşturabilirsiniz. " ,
+      " gerekli " : yanlış    
+    },
+    " GENIUS_API_TOKEN " : {
+      " description " : " Genius API Key, 'https://genius.com/developers' adresinden alın. " ,
+      " gerekli " : yanlış
+    },
+    " AUTO_PP " : {
+      " description " : " Autopp modülünün çalışması için olan değişkendir. Çalışması için kullanacağınız direkt bağlantınızın girilmesi gerekiyor. " ,
+      " gerekli " : yanlış      
+    },
+    " BOTLOG_CHATID " : {
+      " description " : " Günlük Grubu ChatID'si. BOTLOG = False ve / veya LOGSPAMMER = Yanlış ise '0' olarak çıkıyor. " ,
+      " değer " : " 0 "
+    },
+    " CONSOLE_LOGGER_VERBOSE " : {
+      " description " : " Konsol günlüğünde detayya ihtiyacınız, bunu True olarak birlikte. " ,
+      " değer " : " Yanlış "
+    },
+    " PM_AUTO_BAN " : {
+      " description " : " PM Otomatik Yasaklama Özelliği. 'Hey! Bu bir bot.' modülüdür. " ,
+      " değer " : " Yanlış "
+    },
+    " YOUTUBE_API_KEY " : {
+      " description " : " .yt komutu için YouTube Veri API'sı keyidir. https://console.cloud.google.com adresinden alın. " ,
+      " gerekli " : yanlış
+    },
+    " OCR_SPACE_API_KEY " : {
+      " description " : " .ocr komutu için OCR API Key. https://ocr.space/ocrapi adresinden alın. " ,
+      " gerekli " : yanlış
+    },
+    " REM_BG_API_KEY " : {
+      " description " : " .rbg komutu için API Key. https://www.remove.bg/api adresinden alın. " ,
+      " gerekli " : yanlış
+    },
+    " ANTI_SPAMBOT " : {
+      " description " : " Katıldıktan sonra gruplardan spambotları tekmeliyor. [Tekmelemek için yönetici yetkileri] " ,
+      " değer " : " Yanlış "
+    },
+    " ANTI_SPAMBOT_SHOUT " : {
+      " description " : " Tekme atmak için yetkileriniz yoksa spambotları gruba katıl sonra yöneticilere rapor edin. " ,
+      " değer " : " Yanlış "
+    },
+    " TMP_DOWNLOAD_DIRECTORY " : {
+      " description " : " Modül için indirme işaretli (GDrive, .download vb ..) " ,
+      " değer " : " ./downloads/ "
+    },
+    " CLEAN_WELCOME " : {
+      " description " : " Yeni bir kişi katıldığında, eski karşılama mesajı silinir. " ,
+      " değer " : " Doğru "
+    },
+    " G_DRIVE_CLIENT_ID " : {
+      " description " : " Google Drive için istemci kimliğini girin. " ,
+      " gerekli " : yanlış
+    },
+    " LASTFM_API " : {
+      " description " : " Last.FM modülü için API Anahtarı. [Şuradan bir tane alın - https://www.last.fm/api/account/create] " ,
+      " gerekli " : yanlış
+    },
+    " LASTFM_SECRET " : {
+      " description " : " Last.FM modülü için SECRET Key. [Şuradan bir tane alın - https://www.last.fm/api/account/create] " ,
+      " gerekli " : yanlış
+    },
+    " LASTFM_USERNAME " : {
+      " description " : " Last.FM Kullanıcı adı " ,
+      " gerekli " : yanlış
+    },
+    " LASTFM_PASSWORD " : {
+      " description " : " Last.FM Şifre " ,
+      " gerekli " : yanlış
+    },
+    " BIO_PREFIX " : {
+      " description " : " Last.FM Modül Biyografi için önek. " ,
+      " gerekli " : yanlış
+    },
+    " DEFAULT_BIO " : {
+      " description " : " Varsayılan profil biyografisi. (Lastfm modülü için) " ,
+      " value " : " #TeamDerUntergang " ,
+      " gerekli " : yanlış
+    },
+    " G_DRIVE_CLIENT_SECRET " : {
+      " description " : " Google Drive için istemci sırrını girin. " ,
+      " gerekli " : yanlış
+    },
+    " G_DRIVE_AUTH_TOKEN_DATA " : {
+      " description " : " Google Drive kimliğinizi doğrulayın JSON yapısı olarak girin. " ,
+      " gerekli " : yanlış
+    },
+    " LYDIA_API_KEY " : {
+      " description " : " Bu modülün çalışması için CoffeeHouse API'sine ihtiyacı var. 'https://coffeehouse.intellivoid.info/dashboard' Buradan Alınacak. " ,
+      " gerekli " : yanlış
+    },
+    " WEATHER_DEFCITY " : {
+      " description " : " UserBot'un hava durumu modülü için varsayılan şehri vardır. " ,
+      " gerekli " : yanlış
+    },
+    " LOGSPAMMER " : {
+      " description " : " Hata günlüklerinin, tamamen sohbette not göndermesi yerine UserBot günlüklerinde saklanmasını istemeniz durumunda bu değeri True olarak. Geçerli bir BOTLOG_CHATID değerinin ayarlanmasını olacak. " ,
+      " değer " : " Yanlış "
+    }
+  },
+  " eklentiler " : [{
+    " plan " : " heroku-postgresql " ,
+    " seçenekler " : {
+      " sürüm " : " 12 "
+    }
+  }],
+  " buildpacks " : [{
+    " url " : " https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest "
+  }, {
+    " url " : " heroku / python "
+  }, {
+    " url " : " heroku-topluluğu / apt "
+    }]
+}
